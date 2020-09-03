@@ -28,7 +28,7 @@ const App = props => {
 
   const handleAdd = (value, inputEl) => {
     if (value === "") {
-      alert("Escribe un valor...");
+      alert("Escribe un valor... ");
     } else {
       props.loadingAction(true);
       let newList = [
